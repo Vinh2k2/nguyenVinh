@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	height: 2200px;
+	background-color:antiquewhite;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+
+
+.noidung{
+	width: 100%;
+	height: 1100px;
+	background-image: url("../img/bg.jpg");
+	font-size: 25pt;
+	
+	padding:120px;
+	box-sizing: border-box;
+	font-family:demofont;
+	color: antiquewhite;
+	
+}
+h8{
+	color: aqua;
+	font-size: 25pt;
+}
+.logo{
+	width: 30%;
+	height: 50px;
+/*	background: red;*/
+	margin-left: 45%;
+	position: fixed;
+}
+
+
+img {
+	border-radius: 30px;
+	
+}
+
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background: lightgrey;
+	position: fixed;
+	transform: rotate(-90deg);
+	margin-left:-48.5%;
+	margin-top: -9%;
+}
+/*menu*/
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px 35px;
+  background-color:lightgrey;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+@font-face{
+	font-family:demofont;
+	src: url("../font/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
